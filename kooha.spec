@@ -11,18 +11,18 @@ URL:            https://github.com/SeaDve/%{oname}
 Source0:        https://github.com/SeaDve/Kooha/archive/v%{version}/%{name}-%{version}.tar.gz
 
 
-BuildSystem:  meson
-BuildRequires:  appstream
-BuildRequires:  cargo
-BuildRequires:  rust
-BuildRequires:  x264
-BuildRequires:  pkgconfig(gstreamer-1.0)
-BuildRequires:  pkgconfig(gstreamer-plugins-base-1.0)
-BuildRequires:  pkgconfig(glib-2.0)
-BuildRequires:  pkgconfig(gtk4)
-BuildRequires:  libadwaita-common
-BuildRequires:	pkgconfig(libadwaita-1)
-BuildRequires:  gettext
+BuildSystem: meson
+BuildRequires: appstream
+BuildRequires: cargo
+BuildRequires: rust
+BuildRequires: x264
+BuildRequires: pkgconfig(gstreamer-1.0)
+BuildRequires: pkgconfig(gstreamer-plugins-base-1.0)
+BuildRequires: pkgconfig(glib-2.0)
+BuildRequires: pkgconfig(gtk4)
+BuildRequires: libadwaita-common
+BuildRequires: pkgconfig(libadwaita-1)
+BuildRequires: gettext
 
 Requires: pipewire
 Requires: gstreamer1.0-pipewire
