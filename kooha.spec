@@ -5,6 +5,7 @@ Name:           kooha
 Version:        2.3.1
 Release:        1
 Summary:        Elegantly record your screen
+Group:          Video
 
 License:        GPLv3+
 URL:            https://github.com/SeaDve/%{oname}
