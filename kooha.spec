@@ -14,8 +14,7 @@ Source1:        kooha-vendored-sources.tar.xz
 
 BuildSystem: meson
 BuildRequires: appstream
-BuildRequires: cargo
-BuildRequires: rust
+BuildRequires: rust-packaging
 BuildRequires: x264
 BuildRequires: pkgconfig(gstreamer-1.0)
 BuildRequires: pkgconfig(gstreamer-plugins-base-1.0)
