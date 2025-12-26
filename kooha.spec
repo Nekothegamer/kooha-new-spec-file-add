@@ -9,6 +9,7 @@ Summary:        Elegantly record your screen
 License:        GPLv3+
 URL:            https://github.com/SeaDve/%{oname}
 Source0:        https://github.com/SeaDve/Kooha/archive/v%{version}/%{name}-%{version}.tar.gz
+Source1:        kooha-vendored-sources.tar.xz
 
 
 BuildSystem: meson
