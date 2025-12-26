@@ -42,6 +42,13 @@ Kooha is a simple screen recorder with a minimal interface.
 %cargo_prep -v vendor
 cat >>.cargo/config.toml <<EOF
 
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "vendor"
+EOF
+
 %post
 %{_bindir}/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
 
